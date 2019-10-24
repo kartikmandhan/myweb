@@ -1,0 +1,142 @@
+h1 {
+  margin: 50px auto 0 auto;
+  padding-top: 50px;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;/* it means 90 px as 100%=1em=16px=1rem. use rem for better results*/
+  color: #66bfff;
+}
+
+
+body {
+  margin: 0;
+  color: #ac23ab;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66bfff;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #03892b;
+}
+hr
+{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: grey;
+  width: 6%;
+}
+p{
+  line-height: 2;
+}
+.top-container {
+  background-color: #b2fcff;
+  padding-top: 50px;
+}
+.me{
+  width:200px;
+  border-radius:50%;
+}
+.pro-image{
+  border-radius:50%;
+  width:40%;
+  float: left;
+  display: block;
+  margin-right: 30px;
+
+}
+.web-image{
+  border-radius:50%;
+  width:40%;
+  float: right;
+  display: block;
+  margin-right: 30px;
+
+}
+.skill-row{
+  text-align: left;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+.middle-container {
+  padding: 50px;
+}
+
+.table {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding:50px 0 20px 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 450px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.mountain {
+  padding-top: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.btn {
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:22px;
+	border:0 solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:19px;
+	padding:17px 14px;
+	text-decoration:none;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 12px;
+}
+.footer-link{
+  color: #11999E;
+  padding: 10px;
+  text-decoration: none;
+
+}
+.footer-link:hover{
+  color: #EAF6F6;
+}
